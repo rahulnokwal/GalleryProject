@@ -6,7 +6,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Layout from "./layout.jsx";
+import Layout from "./Layout.jsx";
 import Page from "./components/Pages/Page.jsx";
 import { StrictMode } from "react";
 
