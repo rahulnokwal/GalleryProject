@@ -1,16 +1,12 @@
-# React + Vite
+A high-performance, responsive image gallery built with React 18, featuring a dynamic Masonry layout and URL-driven pagination. This project fetches high-quality visuals from the Picsum API and provides a seamless browsing experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Responsive Masonry Layout: Adapts perfectly to mobile, tablet, and desktop screens using react-responsive-masonry.
 
-Currently, two official plugins are available:
+Dynamic Routing: Implements react-router-dom for URL-based pagination (e.g., /page/2), enabling browser history support and shareable links.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Custom Hooks: Clean data fetching logic using a reusable usePhotos hook with built-in loading and error states.
 
-## React Compiler
+Performance Optimized: Includes image lazy loading and CSS hardware acceleration for smooth hover transitions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Modern UI: Styled with Tailwind CSS and Lucide icons for a clean, professional aesthetic.
